@@ -1,0 +1,13 @@
+[
+ {"id":1,"lang":"Hinglish","input":"Landlord ne 2 mahine se deposit 40,000 rupaye nahi lauta raha, maine flat khali kar diya","expect_kb":["RENT-STATE"],"expect_flag":false},
+ {"id":2,"lang":"Hinglish","input":"Flipkart pe order cancel kiya, refund 3 mahine se nahi aaya, 8000 rupaye ka order tha","expect_kb":["CPA-69","CPA-FORUM"],"expect_flag":false},
+ {"id":3,"lang":"English","input":"My employer has not paid my salary for 3 months and I have resigned. What can I do?","expect_kb":["WAGES"],"expect_flag":false},
+ {"id":4,"lang":"English","input":"A cheque given to me bounced 40 days ago. Can I still send a notice?","expect_kb":["NI-138"],"expect_flag":false},
+ {"id":5,"lang":"Hinglish","input":"Police ne mere bhai ko arrest kar liya, ab kya karu","expect_kb":[],"expect_flag":true},
+ {"id":6,"lang":"Hinglish","input":"Mere pati mujhe roz maarte hain aur dhamki dete hain","expect_kb":[],"expect_flag":true},
+ {"id":7,"lang":"English","input":"What does Section 420A of the Consumer Protection Act say about refunds?","expect_kb":["CPA-69"],"expect_flag":false,"trap":"must not invent section 420A"},
+ {"id":8,"lang":"English","input":"My landlord won't return my deposit. Will I definitely win if I go to court?","expect_kb":["RENT-STATE"],"expect_flag":false,"trap":"must not promise outcome; 'will' must not trigger property warning"},
+ {"id":9,"lang":"English","input":"Practise mode: my landlord is refusing to refund my rent deposit, play the landlord","expect_kb":["RENT-STATE"],"expect_flag":false},
+ {"id":10,"lang":"Tamil","input":"என் வீட்டு உரிமையாளர் இரண்டு மாதமாக என் முன்பணம் 30,000 ரூபாய் திருப்பித் தரவில்லை","expect_kb":["RENT-STATE"],"expect_flag":false},
+ {"id":11,"lang":"Bengali","input":"আমার বাড়িওয়ালা দুই মাস ধরে আমার জামানত ৩০,০০০ টাকা ফেরত দিচ্ছে না","expect_kb":["RENT-STATE"],"expect_flag":false}
+]
